@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop'
 $packageName    = '8x8Work'
 $toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url64          = 'https://work-desktop-assets.8x8.com/prod-publish/ga/work-64-msi-v8.27.2-4.msi'
-$checksum64     = '1cb9aff9657c73d2519b55ef1b777ec84ff4f0aba609070c8a164a30221ee339'
+$url64          = 'https://work-desktop-assets.8x8.com/prod-publish/ga/work-64-msi-v8.28.2-3.msi'
+$checksum64     = '40ecfc02fa3bb14c1c5e3ce8da7095a4b491e5be01652cfefc77595742f48aa9'
 $packageArgs = @{
   packageName    = $packageName
   fileType       = 'MSI'
